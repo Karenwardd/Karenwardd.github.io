@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Color Scheme</title>
+	<title>Wireframe</title>
 
 	<style>
 
 	body{
 			font-family: sans-serif;
 			font-size: 18px;
+			background-color: #f2f2f2;
 	}
 		
     .outer{
@@ -21,7 +22,17 @@
   		text-align:left;
 
   		padding:10px;
-  		border:solid 1px;
+  	
+  		background-color: #FFF;
+  	}
+
+  	.swatcharea{
+  		width:300px;
+  		position: relative;
+       display: inline-block;
+  		text-align:left;
+  		
+
   	}
   	.heading{
   		font-size: 24px;
@@ -43,43 +54,82 @@
   	}
 
   	.brandcolor1{
-  		background-color: #000000;
+  		background-color: #000;
   	}
   	.brandcolor2{
-  		background-color: #FFFFFF;
+  		background-color: #FF0;
   	}
   	.brandcolor3{
-  		background-color: #E31937;
+  		background-color: #F0F;
   	}
 
   	.menucolor1{
-  		background-color: #393c41;
+  		background-color: #black;
   	}
   	.menucolor2{
-  		background-color: #f2f2f2;
+  		background-color: darkgray;
   	}
   	.menucolor3{
-  		background-color: FFFFFF;
+  		background-color: red;
+  	}
+
+    .hobbymenucolor1{
+  		background-color: #black;
+  	}
+  	.hobbymenucolor2{
+  		background-color: darkgray;
+  	}
+  	.hobbymenucolor3{
+  		background-color: red;
   	}
 
   	.pagecolor1{
-  		background-color: #FFFFFF;
+  		background-color: #FFF;
   	}
   	.pagecolor2{
-  		background-color: #000000;
+  		background-color: #CCC;
   	}
   	.pagecolor3{
-  		background-color: f5f5f5;
+  		background-color: skyblue;
+  	}
+  	.hobbypagecolor1{
+  		background-color: #FFF;
+  	}
+  	.hobbypagecolor2{
+  		background-color: #CCC;
+  	}
+  	.hobbypagecolor3{
+  		background-color: skyblue;
   	}
 
   	.textcolor1{
-  		background-color: #181b21;
+  		background-color: #000;
   	}
   	.textcolor2{
-  		background-color: #393c41;
+  		background-color: #333;
   	}
   	.textcolor3{
-  		background-color: #ffffff;
+  		background-color: #222233;
+  	}
+  	.hobbytextcolor1{
+  		background-color: #000;
+  	}
+  	.hobbytextcolor2{
+  		background-color: #333;
+  	}
+  	.hobbytextcolor3{
+  		background-color: #222233;
+  	}
+
+  	.img{
+  		padding:10px;
+  		width:95%;
+  		margin-top:30px;
+
+  	}
+  	.img_mobile{
+  		padding:10px;
+  		width:55%;
   	}
 
 
@@ -91,31 +141,71 @@
 
 	<div class="outer">
 		<div class="page">
-			<div class="heading"><span class="font-family">Site name: Tesla</span></div> 
-			<div class="heading">Font-Family: <span class="font-family">Gotham</span></div> 
+	<!-- THIS IS WHERE THE ORIGINAL INFORMATION BEGINS -->
+			<div class="heading"><span class="font-family">Site Name</span></div> 
+			<div class="heading">Font-Family: <span class="font-family">Helvetica</span></div> 
            	<div class="heading">Brand Colors:</div> 
-           	<div class="swatch brandcolor1"></div>
-           	<div class="swatch brandcolor2"></div>
-           	<div class="swatch brandcolor3"></div>
+           	<div class="swatch brandcolor1"></div><br>
           
-           	
-           	<div class="heading">Menu:</div> 
+          <div class="swatcharea">
+            <!-- THIS IS WHERE THE ORIGINAL BRAND MENU COLORS ARE DEFINED -->
+           	<div class="heading">Brand Menu:</div> 
            	<div class="swatch menucolor1"></div>
            	<div class="swatch menucolor2"></div>
            	<div class="swatch menucolor3"></div>
 
-           	<div class="heading">Page:</div> 
+            <!-- THIS IS WHERE THE ORIGINAL BRAND PAGE COLORS ARE DEFINED -->
+           	<div class="heading">Brand Page:</div> 
            	<div class="swatch pagecolor1"></div>
            	<div class="swatch pagecolor2"></div>
            	<div class="swatch pagecolor3"></div>
 
-           	<div class="heading">Text:</div> 
+            <!-- THIS IS WHERE THE ORIGINAL BRAND TEXT COLORS ARE DEFINED -->
+           	<div class="heading">Brand Text:</div> 
            	<div class="swatch textcolor1"></div>
            	<div class="swatch textcolor2"></div>
            	<div class="swatch textcolor3"></div>
+         </div>
+
+
+          <div class="swatcharea">
+ <!-- THIS IS WHERE THE HOBBY COLORS ARE DEFINED -->
+
+           <div class="heading">Hobby Menu:</div> 
+           	<div class="swatch hobbymenucolor1"></div>
+           	<div class="swatch hobbymenucolor2"></div>
+           	<div class="swatch hobbymenucolor3"></div>
+
+           <!-- THIS IS WHERE THE HOBBY PAGE COLORS ARE DEFINED -->
+
+           	<div class="heading">Hobby Page:</div> 
+           	<div class="swatch hobbypagecolor1"></div>
+           	<div class="swatch hobbypagecolor2"></div>
+           	<div class="swatch hobbypagecolor3"></div>
+
+           	<!-- THIS IS WHERE THE HOBBY TEXT COLORS ARE DEFINED -->
+
+           	<div class="heading">Hobby Text:</div> 
+           	<div class="swatch hobbytextcolor1"></div>
+           	<div class="swatch hobbytextcolor2"></div>
+           	<div class="swatch hobbytextcolor3"></div>
+
+
+          </div>
+
+
+
+           	<div><img class="img" src="img/desktop.jpg" alt="desktop wireframe sketch"></div>
+           	<div><img class="img_mobile" src="img/mobile.jpg" alt="desktop wireframe sketch"></div>
+
+<!-- THIS IS WHERE YOUR HOBBY INFORMATION BEGINS -->
+
+          
     
 
 		</div>
+
+	
 
 	</div>
 
