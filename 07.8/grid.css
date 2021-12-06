@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+
+
+body{
+  margin:0;  
+  padding:0;
+
+}
+
+.div-styles{
+  width: 100px
+}
+
+.outer{
+   text-align: center;
+   padding:0px;
+}
+.page{
+   width:1200px;
+   height:95vh;
+   display: inline-block;
+   text-align:center;
+   padding:0px;
+   background-color: white;
+}
+
+.navbar{
+ position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  z-index: 100;
+  opacity: .9;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap ;
+  align-items:left;
+  justify-content:flex-start; 
+  background-color: green;
+}
+
+.container {
+  width: 96%;
+  margin:auto;
+  color:black;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0% 0%;
+  min-height: 0.125rem;
+}
+
+
+.layout{
+  width:100%;
+  height: 100px;
+  background-color: #f5eaea;
+
+}
+
+
+/* HERO IMAGE */
+.hero_content{
+  font-size:28px;
+  text-align: center;
+}
+.hero_text_headline{
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.hero_content img{
+  width:100%;
+}
+
+
+
+/* SIDEBAR COMPONENT */
+
+.side_bar{
+  height:5%;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+ 
+  text-align: left;
+
+}
+
+
+
+.side_bar .section{
+   color: red;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.side_bar img{
+  float: right;
+  width: =100%;
+}
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+   
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+   
+}
+.col-1 {
+    width: 8.33%;
+    background: rgba(200,90,20,.1);
+  }
+
+  .col-2 {
+    width: 16.66%;
+    background: rgba(200,90,20,.2);
+  }
+
+  .col-3 {
+    width: 25%;
+    background: rgba(200,90,20,.3);   
+  }
+
+  .col-4 {
+    width: 33.33%;
+    background: rgba(200,90,20,.4);
+  }
+
+  .col-5 {
+    width: 41.67%;
+    background: rgba(200,90,20,.5);
+  }
+
+  .col-6 {
+    width: 50%;
+    background: rgba(200,90,20,.5);
+  }
+  
+
+  .col-7 {
+    width: 58.33%;
+    background: rgba(200,90,20,.57);
+  }
+
+  .col-8 {
+    width: 66.67%;
+    background: rgba(200,90,20,.64);
+  }
+
+  .col-9 {
+    width: 75%;
+    background: rgba(200,90,20,.75);
+  }
+
+  .col-10 {
+    width: 83.33%;
+    background: rgba(200,90,20,.82);
+  }
+
+  .col-11 {
+    width: 91.67%;
+    background: rgba(200,90,20,.89);
+  }
+
+  .col-12 {
+    width: 100%;
+    background: rgba(200,90,20,1);
+  }
+
+/* This is clearfix, clearing content after each row*/
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+div [class^="col"] {
+    height:100px;
+    border: 1px solid white;
+   
+}
