@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: hue-rotate:(180deg) saturate:(200%); 
+      filter: hue-rotate(180deg) saturate:(200%);
+
+      
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 10s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: hue-rotate:(180deg); 
+	        filter: hue-rotate(180deg);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/apples.png" alt="apples">
+
+</body>
+</html>
