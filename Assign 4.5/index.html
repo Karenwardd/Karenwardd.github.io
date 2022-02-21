@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href='styles.css'  type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="embedScript.js"></script>
+
+
+  </head>
+  <body>
+  <header>
+      <div class="logo">
+        <h2>Website Name</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href='#about'>About Me</a></li>
+          <li><a href='#work'>My Work</a></li>
+          <li><a href='#cv'>CV</a></li>
+          <li><a href='#contact'>Get in Touch</a></li>
+        </ul>
+      </nav>
+    </header>
+	
+    <section id="content">
+      <h2>Assignment 3.3</h2>
+
+    </section>
+							 
+ <script>
+function ShowAndHide() {
+    var x = document.getElementById('content');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script> 
+ <BUTTON ONCLICK="ShowAndHide()">Click me</BUTTON>
+<DIV ID="content" STYLE="display:none">Text to be shown and hidden</DIV>
+
+
+</body>
+    </html>
