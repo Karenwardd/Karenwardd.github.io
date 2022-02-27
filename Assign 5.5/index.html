@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").css({
+      "color": "white",
+      "background-color": "#98bf21",
+      "font-family": "Arial",
+      "font-size": "20px",
+      "padding": "5px"
+    });
+  });
+});
+</script>
+	
+<script>
+$(document).ready(function(){
+  $(".a_box").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+	
+	
+<script>
+$(document).ready(function(){
+$(".b_box").click(function(){
+    $(this).css("background-color","#EBDC18");
+   });
+});
+</script>
+	
+	
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<button>Click to change color</button>
+	
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	
+<p2> </p2>
+	
+
+<div class="outer">
+	<div class="page">
+			<div class="a_box">
+			If you click me <br>I will disappear
+			</div>
+		
+			<div class="b_box">
+			If you click me <br>I will change color
+			</div>
+	   	</div>
+	</div>
+	
+	
+	
+</body>
+</html>
